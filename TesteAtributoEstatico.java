@@ -1,5 +1,5 @@
-class TesteAtributoEstatico{
-    
+public class Main
+{
     static int somaDois(int valor){
         return valor + 2;
     }
