@@ -1,0 +1,18 @@
+                     ,-------------------------.                             
+                     |Pessoa                   |   ,------------------------.
+,-----------------.  |-------------------------|   |Funcionario             |
+|Genero           |  |-Int id                  |   |------------------------|
+|-----------------|  |-Long cpf                |   |-Int matricula          |
+|-Int id          |--|-String nome             |---|-String cargo           |
+|-String descricao|  |-String sobrenome        |   |-Double salarioBase     |
+`-----------------'  |+String getNomeCompleto()|   |+Double calculaSalario()|
+                     `-------------------------'   `------------------------'
+                                   |                            |            
+                                   |                            |            
+                                   |                 ,--------------------.  
+                       ,---------------------.       |Especialidade       |  
+                       |Paciente             |       |--------------------|  
+                       |---------------------|       |-Long id            |  
+                       |-Int numeroCarterinha|       |-String nome        |  
+                       `---------------------'       |-Double gratificacao|  
+                                                     `--------------------'  
