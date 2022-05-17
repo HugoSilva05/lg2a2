@@ -1,5 +1,5 @@
 package hospital;
 
-public class Genero {
+public class Pessoa {
 
 }
