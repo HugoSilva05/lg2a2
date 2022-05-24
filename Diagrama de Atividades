@@ -1,0 +1,40 @@
+@startuml
+
+title Cinema
+
+start
+
+:Seleciona venda de ingressos; 
+
+:Sistema apresenta sessões; 
+
+if (Sessão encerrada?) then (sim)
+  :Não apresenta sessão;
+else (não)
+  :Mostra o título e a sala;
+endif
+
+:Cliente escolhe a sessão e o filme;
+
+:Funcionário registra opção do cleinte;
+
+:Sistema apresenta assentos disponíveis;
+
+:Cliente escolhe os assentos;
+
+:Funcionário registra os assentos escolhidos;
+
+:Sistema apresenta tipos de ingresso;
+
+if (É meia-entrada?) then (sim)
+  :Ingresso meia-entrada;
+else (não)
+  :Ingresso valor nominal;
+endif
+
+:Funcionário confirma emissão dos ingressos;
+
+:Cliente vai se divertir :);
+stop
+
+@enduml
